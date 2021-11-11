@@ -1,0 +1,10 @@
+---
+title: 'Dummy project'
+subtitle: 'Example repo'
+author: 'RAP group'
+date: 'Last update: `r Sys.time()`'
+output: pdf_document
+---
+
+```{r, 'intro', child="./sections/01_intro.Rmd"}
+```
